@@ -60,6 +60,6 @@ public class Item {
 	 * manual formatting for string out
 	 */
 	public String toString() {
-		return (name + "\n" + description + "\n" + formatter.format(price));
+		return (name + "\n" + description + "\n  " + formatter.format(price));
 	}
 }
