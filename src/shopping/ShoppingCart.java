@@ -1,4 +1,4 @@
-package Shopping;
+package shopping;
 
 import java.util.ArrayList;
 
