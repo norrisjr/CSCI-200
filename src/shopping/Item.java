@@ -6,12 +6,13 @@ public class Item {
 	private String name;
 	private String description;
 	private double price;
-	NumberFormat formatter = NumberFormat.getCurrencyInstance();
+	private NumberFormat formatter;
 	
 	public Item(String name, String description, double price) {
 		this.name = name;
 		this.description = description;
 		this.price = price;
+		formatter  = NumberFormat.getCurrencyInstance();
 	}
 	
 	/**
